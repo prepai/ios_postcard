@@ -14,6 +14,8 @@
 		4413FDF61B1298FF0056A61E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4413FDF51B1298FF0056A61E /* Images.xcassets */; };
 		4413FDF91B1298FF0056A61E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4413FDF71B1298FF0056A61E /* LaunchScreen.xib */; };
 		4413FE051B1298FF0056A61E /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413FE041B1298FF0056A61E /* postcardTests.swift */; };
+		4438DC531B12F4100069E5B0 /* Times-Square-New-York.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4438DC521B12F4100069E5B0 /* Times-Square-New-York.jpg */; };
+		4439B09A1B15787B002FE7FA /* homer-stamp-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4439B0991B15787B002FE7FA /* homer-stamp-14.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		4413FDFE1B1298FF0056A61E /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4413FE031B1298FF0056A61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4413FE041B1298FF0056A61E /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		4438DC521B12F4100069E5B0 /* Times-Square-New-York.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Times-Square-New-York.jpg"; sourceTree = "<group>"; };
+		4439B0991B15787B002FE7FA /* homer-stamp-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homer-stamp-14.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		4413FDE91B1298FF0056A61E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4439B0991B15787B002FE7FA /* homer-stamp-14.jpg */,
+				4438DC521B12F4100069E5B0 /* Times-Square-New-York.jpg */,
 				4413FDEA1B1298FF0056A61E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4413FDF41B1298FF0056A61E /* Main.storyboard in Resources */,
+				4439B09A1B15787B002FE7FA /* homer-stamp-14.jpg in Resources */,
+				4438DC531B12F4100069E5B0 /* Times-Square-New-York.jpg in Resources */,
 				4413FDF91B1298FF0056A61E /* LaunchScreen.xib in Resources */,
 				4413FDF61B1298FF0056A61E /* Images.xcassets in Resources */,
 			);
@@ -411,6 +419,7 @@
 				4413FE0A1B1298FF0056A61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4413FE0B1B1298FF0056A61E /* Build configuration list for PBXNativeTarget "postcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				4413FE0D1B1298FF0056A61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
